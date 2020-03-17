@@ -100,6 +100,9 @@
       display: flex;
       flex-direction: column;
     }
+    &__left {
+      height: 100%;
+    }
     &__photo {
       display: none;
     }
@@ -110,7 +113,7 @@
       margin-bottom: 1rem;
     }
     &__cta {
-      margin: 1rem 0 2.5rem 0;
+      margin: 1rem 0 0rem 0;
     }
     &__right {
       height: 100%;
