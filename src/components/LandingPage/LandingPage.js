@@ -38,7 +38,7 @@ export default function LandingPage() {
               <div className={styles.lp__link__shape}></div>
             </a>
             <div className={styles.lp__link__text}>
-              <a href="#">Short bio</a>
+              <a href="#">Short Bio</a>
             </div>
           </div>
           <div className={styles.lp__link}>

@@ -113,18 +113,19 @@
       margin-bottom: 1rem;
     }
     &__cta {
-      margin: 1rem 0;
+      margin: 1rem 0 0 0;
     }
     &__right {
       height: 100%;
       align-items: center;
+      justify-content: space-evenly;
       position: relative;
     }
     &__link {
-      margin: 1rem 0;
+      margin: 0;
       &:hover {
         .lp__link__text {
-          font-size: 1.5rem;
+          font-size: 2rem;
         }
       }
       &__shape {
@@ -132,6 +133,7 @@
       }
       &__text {
         padding: 0;
+        font-size: 2rem;
       }
     }
     &__center {
