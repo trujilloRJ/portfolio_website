@@ -100,9 +100,6 @@
       display: flex;
       flex-direction: column;
     }
-    &__left {
-      height: 100%;
-    }
     &__photo {
       display: none;
     }
@@ -113,19 +110,19 @@
       margin-bottom: 1rem;
     }
     &__cta {
-      margin: 1rem 0 0 0;
+      margin: 1rem 0 2.5rem 0;
     }
     &__right {
       height: 100%;
       align-items: center;
-      justify-content: space-evenly;
+      justify-content: center;
       position: relative;
     }
     &__link {
-      margin: 0;
+      margin: 0 0 1rem 0;
       &:hover {
         .lp__link__text {
-          font-size: 2rem;
+          font-size: 1.8rem;
         }
       }
       &__shape {
@@ -133,7 +130,7 @@
       }
       &__text {
         padding: 0;
-        font-size: 2rem;
+        font-size: 1.8rem;
       }
     }
     &__center {
