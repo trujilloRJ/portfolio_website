@@ -10,6 +10,9 @@
 
 html {
   font-size: 20px;
+  @media (max-width: $mobile-width) {
+    font-size: 16px;
+  }
 }
 
 body {
