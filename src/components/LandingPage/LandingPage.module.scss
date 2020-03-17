@@ -15,8 +15,8 @@
     align-items: center;
   }
   &__photo {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     background: url("../../images/trujillo.jpg") no-repeat center center/cover;
     border-radius: 50%;
     // border: 1px solid $secondary-color;
@@ -63,7 +63,7 @@
     color: set-text-color($secondary-color);
   }
   &__link {
-    margin: 2rem -15px;
+    margin: 2rem -20px;
     display: flex;
     align-items: center;
     &:hover {
@@ -75,8 +75,8 @@
       }
     }
     &__shape {
-      width: 30px;
-      height: 30px;
+      width: 40px;
+      height: 40px;
       border-radius: 50%;
       transform: rotate(45deg);
       background: $primary-color;
