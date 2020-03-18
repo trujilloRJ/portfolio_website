@@ -1,0 +1,6 @@
+@import "../../config.scss";
+
+.projects {
+  background: lighten($color: $secondary-color, $amount: 25);
+  padding: 2rem 0;
+}

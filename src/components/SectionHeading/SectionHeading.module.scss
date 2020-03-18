@@ -1,0 +1,10 @@
+@import "../../config";
+
+.heading {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: $dark-color;
+  border-left: 8px solid rgba($dark-color, 0.8);
+  padding: 0.5rem 1rem;
+  margin-bottom: 2rem;
+}
