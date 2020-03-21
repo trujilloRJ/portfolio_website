@@ -3,4 +3,68 @@
 .bio {
   padding: 2rem 0;
   background: lighten($color: $secondary-color, $amount: 22);
+  &__text {
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+}
+
+.edu__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+
+.edu {
+  display: flex;
+  padding: 1rem;
+  &__photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid $dark-color;
+    transition: all $transition-time ease-out;
+    margin-right: 1rem;
+    &__container {
+      width: 58px;
+      margin: auto;
+      margin-top: 10px;
+      img {
+        width: 100%;
+      }
+    }
+    &:hover {
+      border-color: #fff;
+      box-shadow: 1px 1px 5px $dark-color;
+    }
+  }
+  &__name {
+    color: $secondary-color;
+    font-size: 1rem;
+    font-weight: 700;
+    &.right {
+      text-align: right;
+      margin-right: 1rem;
+    }
+  }
+  &__grade {
+    font-size: 0.9rem;
+    &.right {
+      text-align: right;
+      margin-right: 1rem;
+    }
+  }
+  &__remarks {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    font-style: italic;
+    color: gray;
+    &.right {
+      text-align: right;
+      margin-right: 1rem;
+    }
+  }
 }

@@ -34,7 +34,7 @@ a {
   display: grid;
   gap: 1rem;
   &.g2 {
-    grid-template-columns: 0.4fr 0.6fr;
+    grid-template-columns: 1fr 1fr;
   }
   &.g3 {
     grid-template-columns: 1fr 1fr 1fr;

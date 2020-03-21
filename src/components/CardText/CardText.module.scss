@@ -2,17 +2,23 @@
 
 .card {
   border-radius: 10px;
+  position: relative;
+  padding-top: 1rem;
+  margin-top: 1rem;
   &__heading {
+    position: absolute;
     background: $dark-color;
     color: #fff;
     padding: 0.5rem 1rem;
     display: inline;
     border-radius: 10px;
     text-transform: uppercase;
-  }
-  &__text {
-    padding: 1rem;
-    text-align: center;
-    font-size: 0.9rem;
+    top: -1rem;
+    &.left {
+      left: 0;
+    }
+    &.right {
+      right: 0;
+    }
   }
 }
