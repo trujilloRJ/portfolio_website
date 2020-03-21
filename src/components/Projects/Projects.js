@@ -14,14 +14,14 @@ import gatsby from "../../images/gatsby.png";
 
 const cardWorkProps1 = {
   text:
-    "A web application to fetch cocktails and drinks data from a third party API. It includes more than 200 drink recipes",
+    "A web application to get cocktail and beverage data from a third-party API. Includes over 200 beverage recipes",
   linkCode: "https://github.com/trujilloRJ/cocktail_world",
   linkWeb: "https://trujillorj.github.io/cocktail_world/",
   techList: [react, js, sass]
 };
 const cardWorkProps2 = {
   text:
-    "A static website to promote an real Airbnb diving experience. It's a simple website with a clear call to action and Airbnb integration for payments and schedule",
+    "A static website to promote a real Airbnb diving experience. It's a simple website with a clear call to action and Airbnb integration for payments and schedule",
   linkCode: "https://github.com/trujilloRJ/diving_website",
   linkWeb: "https://www.scubacorals.com/",
   techList: [html, css, js]

@@ -1,0 +1,6 @@
+@import "../../config";
+
+.bio {
+  padding: 2rem 0;
+  background: lighten($color: $secondary-color, $amount: 22);
+}

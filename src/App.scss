@@ -33,9 +33,22 @@ a {
 .grid {
   display: grid;
   gap: 1rem;
+  &.g2 {
+    grid-template-columns: 0.4fr 0.6fr;
+  }
   &.g3 {
     grid-template-columns: 1fr 1fr 1fr;
   }
+}
+
+.link {
+  cursor: pointer;
+}
+.txt-focus {
+  color: $secondary-color;
+  font-weight: 700;
+  font-size: 1.1rem;
+  letter-spacing: 0.01rem;
 }
 
 @media (max-width: $mobile-width) {

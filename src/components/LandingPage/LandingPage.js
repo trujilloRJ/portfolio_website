@@ -1,6 +1,9 @@
 import React from "react";
 import styles from "./LandingPage.module.scss";
 import "../../../node_modules/font-awesome/css/font-awesome.min.css";
+import { Link, animateScroll as scroll } from "react-scroll";
+
+const scrollTime = 300;
 
 export default function LandingPage() {
   return (
@@ -19,6 +22,9 @@ export default function LandingPage() {
             <a href="#">
               <i className="fa fa-github fa-2x"></i>
             </a>
+            <a href="mailto:trujillorodriguezjavier@gmail.com?subject=Hi there!">
+              <i className="fa fa-google fa-2x"></i>
+            </a>
           </div>
           <a href="#">
             <div className={styles.lp__cta}>Contact Me</div>
@@ -26,19 +32,47 @@ export default function LandingPage() {
         </div>
         <div className={styles.lp__right}>
           <div className={styles.lp__link}>
-            <a href="#projects">
+            <Link
+              className="link"
+              to="projects"
+              smooth={true}
+              offset={0}
+              duration={scrollTime}
+            >
               <div className={styles.lp__link__shape}></div>
-            </a>
+            </Link>
             <div className={styles.lp__link__text}>
-              <a href="#projects">Projects</a>
+              <Link
+                className="link"
+                to="projects"
+                smooth={true}
+                offset={0}
+                duration={scrollTime}
+              >
+                Projects
+              </Link>
             </div>
           </div>
           <div className={styles.lp__link}>
-            <a href="#">
+            <Link
+              className="link"
+              to="bio"
+              smooth={true}
+              offset={0}
+              duration={scrollTime}
+            >
               <div className={styles.lp__link__shape}></div>
-            </a>
+            </Link>
             <div className={styles.lp__link__text}>
-              <a href="#">Short Bio</a>
+              <Link
+                className="link"
+                to="bio"
+                smooth={true}
+                offset={0}
+                duration={scrollTime}
+              >
+                About
+              </Link>
             </div>
           </div>
           <div className={styles.lp__link}>

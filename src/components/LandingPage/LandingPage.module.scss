@@ -33,7 +33,7 @@
   &__social_nav {
     display: flex;
     a {
-      margin: 0 1rem;
+      margin: 0 0.7rem;
       transition: all $transition-time ease-out;
       &:hover {
         color: $secondary-color;
