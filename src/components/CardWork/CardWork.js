@@ -6,7 +6,11 @@ export default function CardWork({ props, children }) {
   return (
     <>
       <div className={cardStyles.card}>
-        <div className={cardStyles.card__brand}>{children}</div>
+        <div className={cardStyles.card__brand}>
+          <a href={props.linkWeb} target="blank">
+            {children}
+          </a>
+        </div>
         <div className={cardStyles.card__text}>{props.text}</div>
         <div className={cardStyles.card__btn_list}>
           <div className={cardStyles.card__btn}>

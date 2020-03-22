@@ -133,11 +133,13 @@
         display: none;
       }
       &__text {
-        padding: 0.1rem 1rem;
+        padding: 0.2rem 1rem;
         font-size: 1.5rem;
         box-shadow: 1px 1px 2px rgba(#000, 0.2);
         border-radius: 10px;
         background: darken($color: $primary-color, $amount: 80);
+        // position: relative;
+        // animation: borderRadius 1s infinite linear;
       }
     }
     &__center {

@@ -26,9 +26,15 @@ export default function LandingPage() {
               <i className="fa fa-google fa-2x"></i>
             </a>
           </div>
-          <a href="#">
+          <Link
+            className="link"
+            to="contact"
+            smooth={true}
+            offset={0}
+            duration={scrollTime}
+          >
             <div className={styles.lp__cta}>Contact Me</div>
-          </a>
+          </Link>
         </div>
         <div className={styles.lp__right}>
           <div className={styles.lp__link}>
@@ -76,11 +82,25 @@ export default function LandingPage() {
             </div>
           </div>
           <div className={styles.lp__link}>
-            <a href="#">
+            <Link
+              className="link"
+              to="contact"
+              smooth={true}
+              offset={0}
+              duration={scrollTime}
+            >
               <div className={styles.lp__link__shape}></div>
-            </a>
+            </Link>
             <div className={styles.lp__link__text}>
-              <a href="#">Find Me</a>
+              <Link
+                className="link"
+                to="contact"
+                smooth={true}
+                offset={0}
+                duration={scrollTime}
+              >
+                Find Me
+              </Link>
             </div>
           </div>
           <div className={styles.lp__center}></div>

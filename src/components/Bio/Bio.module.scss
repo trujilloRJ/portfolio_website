@@ -5,7 +5,7 @@
   background: lighten($color: $secondary-color, $amount: 22);
   &__text {
     padding: 1rem;
-    text-align: center;
+    text-align: justify;
     font-size: 0.9rem;
   }
 }
@@ -25,9 +25,29 @@
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    border: 2px solid $dark-color;
-    transition: all $transition-time ease-out;
+    border: 2px solid #fff;
     margin-right: 1rem;
+    position: relative;
+    &:hover {
+      &::after {
+        border: 2px solid #fff;
+      }
+    }
+    &::after {
+      content: "";
+      box-sizing: inherit;
+      position: absolute;
+      top: -5%;
+      right: -5%;
+      left: -5%;
+      bottom: -5%;
+      background: transparent;
+      border: 1px solid $dark-color;
+      border-top-color: #fff;
+      border-bottom-color: #fff;
+      border-radius: 50%;
+      animation: rot 5s infinite linear;
+    }
     &__container {
       width: 58px;
       margin: auto;
