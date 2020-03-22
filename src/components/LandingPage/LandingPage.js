@@ -1,5 +1,8 @@
 import React from "react";
 import styles from "./LandingPage.module.scss";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import "../../../node_modules/font-awesome/css/font-awesome.min.css";
 import { Link, animateScroll as scroll } from "react-scroll";
 
@@ -16,14 +19,17 @@ export default function LandingPage() {
             PhD Student and Developer
           </div>
           <div className={styles.lp__social_nav}>
-            <a href="#">
-              <i className="fa fa-linkedin fa-2x"></i>
+            <a
+              href="https://www.linkedin.com/in/javier-trujillo-rodriguez/"
+              target="blank"
+            >
+              <FontAwesomeIcon icon={faLinkedin} size="lg" />
             </a>
-            <a href="#">
-              <i className="fa fa-github fa-2x"></i>
+            <a href="https://github.com/trujilloRJ" target="blank">
+              <FontAwesomeIcon icon={faGithub} size="lg" />
             </a>
             <a href="mailto:trujillorodriguezjavier@gmail.com?subject=Hi there!">
-              <i className="fa fa-google fa-2x"></i>
+              <FontAwesomeIcon icon={faEnvelope} size="lg" />
             </a>
           </div>
           <Link
