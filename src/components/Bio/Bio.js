@@ -27,7 +27,7 @@ export default function Bio() {
         <div className="grid g2">
           <CardText props={cardTextProps}>
             <div className={styles.bio__text}>
-              The concept of extracting meaningful information from data have
+              The concept of extracting meaningful information from data has
               always caught my attention. It pushed me into pursuing a Ph.D. in
               Radar and Remote Sensing and also took me into
               <span className="txt-focus"> Data Science</span>. I worked as a
