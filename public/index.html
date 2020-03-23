@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
 
@@ -27,7 +28,7 @@
       content="https://www.trujilloportfolio.dev/thumbnail.PNG"
     />
     <!-- JSON-LD for SEO -->
-    <script type="application/ld+json">
+    <script type="application/ld+json" defer>
       {
         "@context": "https://schema.org",
         "@type": "Person",
@@ -51,6 +52,12 @@
     </script>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <div class="loading">
+        <div class="loading__txt">
+          Loading
+        </div>
+      </div>
+    </div>
   </body>
 </html>
