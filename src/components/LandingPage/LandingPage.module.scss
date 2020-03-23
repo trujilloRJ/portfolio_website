@@ -28,7 +28,13 @@
     text-transform: uppercase;
   }
   &__sub_heading {
-    margin-bottom: 2rem;
+    font-size: 0.8rem;
+  }
+  &__heading {
+    margin-top: 0.1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: $secondary-color;
   }
   &__social_nav {
     display: flex;
@@ -109,9 +115,6 @@
     }
     &__main_heading {
       margin-top: 1rem;
-    }
-    &__sub_heading {
-      margin-bottom: 1rem;
     }
     &__cta {
       margin: 1rem 0 0rem 0;

@@ -14,10 +14,11 @@ export default function LandingPage() {
       <div className={styles.lp__container}>
         <div className={styles.lp__left}>
           <div className={styles.lp__photo}></div>
-          <div className={styles.lp__main_heading}>Javier Trujillo</div>
+          <h2 className={styles.lp__main_heading}>Javier Trujillo</h2>
           <div className={styles.lp__sub_heading}>
             PhD Student and Developer
           </div>
+          <h1 className={styles.lp__heading}>Portfolio Website</h1>
           <div className={styles.lp__social_nav}>
             <a
               href="https://www.linkedin.com/in/javier-trujillo-rodriguez/"
