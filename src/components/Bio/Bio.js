@@ -78,7 +78,7 @@ export default function Bio() {
                   <div
                     className={[styles.edu__remarks, styles.right].join(" ")}
                   >
-                    My research interest is focus on the study and efficient
+                    My research interest is focused on the study and efficient
                     implementation passive radar signal processing algorithms
                     for disturbance cancellation.
                   </div>
