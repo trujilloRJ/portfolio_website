@@ -79,7 +79,7 @@ export default function Bio() {
                     className={[styles.edu__remarks, styles.right].join(" ")}
                   >
                     My research interest is focused on the study and efficient
-                    implementation passive radar signal processing algorithms
+                    implementation of passive radar signal processing algorithms
                     for disturbance cancellation.
                   </div>
                 </div>
