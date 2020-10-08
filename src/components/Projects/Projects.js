@@ -6,6 +6,7 @@ import GatsbyBlocks from "../SVG/GatsbyBlocks";
 import ScubaCorals from "../SVG/ScubaCorals";
 import CocktailWorld from "../SVG/CocktailWorld";
 import CoronaStats from "../SVG/CoronaStats";
+import Cambrer from "../SVG/Cambrer";
 import html from "../../images/html.png";
 import css from "../../images/css.png";
 import js from "../../images/js.png";
@@ -13,13 +14,14 @@ import react from "../../images/react.png";
 import sass from "../../images/sass.png";
 import gatsby from "../../images/gatsby.png";
 import angular from "../../images/angular.png";
+import typescript from "../../images/typescript.png";
 
 const cardWorkProps0 = {
   text:
     "A daily-updated Coronavirus dashboard that provides quick access to complete data for all the countries affected by the disease.",
   linkCode: "https://github.com/trujilloRJ/coronaStats",
   linkWeb: "https://www.virusdata.dev/home",
-  techList: [angular, js, sass],
+  techList: [angular, typescript, sass],
 };
 
 const cardWorkProps1 = {
@@ -36,12 +38,19 @@ const cardWorkProps2 = {
   linkWeb: "https://www.scubacorals.com/",
   techList: [html, css, js],
 };
-const cardWorkProps3 = {
-  text:
-    "A set of react components to integrate with the static site generator Gatsby. It includes stateless components for improved productivity",
-  linkCode: "https://github.com/trujilloRJ/gatsby_blocks_v1",
-  linkWeb: "https://competent-bassi-22acff.netlify.com/",
-  techList: [gatsby, sass, js, react],
+// const cardWorkProps3 = {
+//   text:
+//     "A set of react components to integrate with the static site generator Gatsby. It includes stateless components for improved productivity",
+//   linkCode: "https://github.com/trujilloRJ/gatsby_blocks_v1",
+//   linkWeb: "https://competent-bassi-22acff.netlify.com/",
+//   techList: [gatsby, sass, js, react],
+// };
+
+const cardWorkProps4 = {
+  text: "A web that showcast the Cambrer PWA features for restaurants",
+  linkCode: "",
+  linkWeb: "https://hola.cambrer.com.ar/",
+  techList: [angular, typescript, sass],
 };
 
 export default function Projects() {
@@ -50,6 +59,9 @@ export default function Projects() {
       <div className="container">
         <SectionHeading text="Projects" />
         <div className="grid g2">
+          <CardWork props={cardWorkProps4}>
+            <Cambrer width={250} height={68} />
+          </CardWork>
           <CardWork props={cardWorkProps0}>
             <CoronaStats width={250} height={68} />
           </CardWork>
@@ -58,9 +70,6 @@ export default function Projects() {
           </CardWork>
           <CardWork props={cardWorkProps2}>
             <ScubaCorals width={250} height={68} />
-          </CardWork>
-          <CardWork props={cardWorkProps3}>
-            <GatsbyBlocks width={250} />
           </CardWork>
         </div>
       </div>

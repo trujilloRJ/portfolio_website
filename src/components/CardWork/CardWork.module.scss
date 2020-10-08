@@ -38,6 +38,13 @@
     padding: 0.1rem;
     box-shadow: 1px 0px 5px rgba(#000, 0.2);
     transition: all 200ms ease-out;
+    &.disabled {
+      a {
+        cursor: default;
+      }
+      opacity: 0.4;
+      pointer-events: none;
+    }
     &:hover {
       background: $secondary-color;
       z-index: 33;

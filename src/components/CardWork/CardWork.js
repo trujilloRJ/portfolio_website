@@ -13,7 +13,11 @@ export default function CardWork({ props, children }) {
         </div>
         <div className={cardStyles.card__text}>{props.text}</div>
         <div className={cardStyles.card__btn_list}>
-          <div className={cardStyles.card__btn}>
+          <div
+            className={`${cardStyles.card__btn} ${
+              props.linkCode == "" ? cardStyles.disabled : ""
+            }`}
+          >
             <a href={props.linkCode} target="blank">
               <i className="fa fa-github fa-2x"></i>
             </a>
