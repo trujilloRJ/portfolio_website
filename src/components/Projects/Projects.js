@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Projects.module.scss";
 import SectionHeading from "../SectionHeading/SectionHeading";
 import CardWork from "../CardWork/CardWork";
-import GatsbyBlocks from "../SVG/GatsbyBlocks";
+// import GatsbyBlocks from "../SVG/GatsbyBlocks";
 import ScubaCorals from "../SVG/ScubaCorals";
 import CocktailWorld from "../SVG/CocktailWorld";
 import CoronaStats from "../SVG/CoronaStats";
@@ -12,7 +12,7 @@ import css from "../../images/css.png";
 import js from "../../images/js.png";
 import react from "../../images/react.png";
 import sass from "../../images/sass.png";
-import gatsby from "../../images/gatsby.png";
+// import gatsby from "../../images/gatsby.png";
 import angular from "../../images/angular.png";
 import typescript from "../../images/typescript.png";
 

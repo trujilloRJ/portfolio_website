@@ -15,7 +15,7 @@ export default function CardWork({ props, children }) {
         <div className={cardStyles.card__btn_list}>
           <div
             className={`${cardStyles.card__btn} ${
-              props.linkCode == "" ? cardStyles.disabled : ""
+              props.linkCode === "" ? cardStyles.disabled : ""
             }`}
           >
             <a href={props.linkCode} target="blank">
